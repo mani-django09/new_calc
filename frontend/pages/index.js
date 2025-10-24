@@ -98,7 +98,7 @@ export default function Home() {
       title: 'CRS Score Calculator',
       description: 'Check your Canadian immigration points for Express Entry application.',
       icon: <FaPassport className="text-indigo-600" />,
-      href: '/crs-calculator',
+      href: '/crs-score-calculator',
       category: 'immigration'
     },
   ];
