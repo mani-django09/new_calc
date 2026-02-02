@@ -552,8 +552,8 @@ export default function CGPACalculator() {
 
   return (
     <Layout
-      title="CGPA Calculator - Calculate Cumulative Grade Point Average Online Free"
-      description="Free CGPA calculator with credit-weighted formula. Calculate your cumulative GPA instantly for 10-point and 4-point scales. Get percentage conversion, grade classification, and semester-wise analysis. Used by 100,000+ students."
+      title="CGPA Calculator - CCalculate Cumulative GPA online Free"
+      description="Free CGPA calculator to calculate cumulative GPA using 10-point or 4-point scales. Get accurate results instantly."
     >
       {/* Schema Markup */}
       <script

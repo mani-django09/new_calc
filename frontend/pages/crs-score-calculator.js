@@ -227,7 +227,7 @@ export default function CRSScoreCalculator() {
   return (
     <Layout
       title="CRS Score Calculator 2026 - Calculate Canada Express Entry Points"
-      description="Free CRS calculator for Canada Express Entry 2026. Calculate your Comprehensive Ranking System score instantly with detailed breakdown. Check eligibility for Canadian permanent residence."
+      description="Calculate your CRS score for Canada Express Entry with a detailed points breakdown and eligibility insights.3"
       keywords="CRS calculator, Canada Express Entry calculator, CRS score calculator, comprehensive ranking system calculator, Canada immigration points calculator, Express Entry points, Canada PR calculator"
       canonicalPath="/crs-score-calculator"
       ogImage="crs-calculator.jpg"

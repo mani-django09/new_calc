@@ -247,8 +247,8 @@ export default function CGPAToPercentage() {
 
   return (
     <Layout
-      title="CGPA to Percentage Calculator 2026 – Convert Cumulative GPA to Percentage Free"
-      description="Convert your CGPA to percentage instantly. Supports both 10-point (India/UGC) and 4-point (USA/Canada) scales. Get your letter grade, job-eligibility analysis, and the exact formula used — all in one click."
+      title="CGPA to Percentage Calculator 2026 – Convert GPA to Percentage"
+      description="Convert CGPA to percentage using 10-point or 4-point scales. Get accurate percentage, grade, and formula instantly."
       keywords="cgpa to percentage calculator, convert cgpa to percentage, gpa to percentage, cgpa percentage conversion, 10 point cgpa to percentage, 4 point gpa to percentage, cumulative gpa calculator"
       canonicalPath="/cgpa-to-percentage"
       ogImage="cgpa-to-percentage.jpg"

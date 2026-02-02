@@ -218,8 +218,8 @@ export default function PercentageToCGPA() {
 
   return (
     <Layout
-      title="Percentage to CGPA Calculator 2026 – Convert Percentage to GPA Instantly"
-      description="Convert percentage to CGPA in seconds with our free calculator. Supports both 10-point (India) and 4-point (USA/Canada) grading scales. Get letter grades, conversion formulas, and target gap analysis instantly."
+      title="Percentage to CGPA Calculator 2026 – Convert Percentage to GPA"
+      description="Convert percentage to CGPA using standard 10-point or 4-point grading scales. Get accurate GPA, grade, and conversion formula."
       keywords="percentage to cgpa calculator, convert percentage to cgpa, percentage to gpa converter, marks to cgpa, percentage to grade point, cgpa conversion calculator, percentage to 4 point gpa"
       canonicalPath="/percentage-to-cgpa-calculator"
       ogImage="percentage-to-cgpa-calculator.jpg"

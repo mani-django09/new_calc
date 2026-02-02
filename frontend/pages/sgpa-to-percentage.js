@@ -248,8 +248,8 @@ export default function SGPAToPercentage() {
 
   return (
     <Layout
-      title="SGPA to Percentage Calculator 2026 – Convert Semester GPA to Percentage Free"
-      description="Convert your semester SGPA to percentage instantly with our free calculator. Supports 10-point (India) and 4-point (USA/Canada) scales. Get letter grades, semester insights, and target gap analysis in one click."
+      title="SGPA to Percentage Calculator 2026 – Semester GPA Calculator"
+      description="Convert SGPA to percentage using standard 10-point or 4-point scales. Get accurate semester percentage and grade."
       keywords="sgpa to percentage calculator, convert sgpa to percentage, semester gpa to percentage, sgpa percentage conversion, sgpa calculator free, 10 point sgpa to percentage, semester grade percentage calculator"
       canonicalPath="/sgpa-to-percentage-calculator"
       ogImage="sgpa-to-percentage-calculator.jpg"

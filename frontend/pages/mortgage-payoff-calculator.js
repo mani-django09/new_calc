@@ -269,8 +269,8 @@ export default function MortgagePayoffCalculator() {
 
   return (
     <Layout
-      title="Mortgage Payoff Calculator 2026 – Calculate Early Mortgage Payoff Savings Free"
-      description="Free mortgage payoff calculator with extra payments. Calculate how much you can save on interest and reduce your loan term by making additional monthly payments. See instant savings, payoff timeline, and comparison charts."
+      title="Mortgage Payoff Calculator 2026 – Save Interest & Pay Off Early"
+      description="Use our free mortgage payoff calculator to see how extra payments reduce interest, shorten your loan term, and help you pay off your mortgage early."
       keywords="mortgage payoff calculator, mortgage calculator with extra payments, early mortgage payoff calculator, calculate mortgage payoff, home loan payoff calculator, mortgage extra payment calculator, pay off mortgage early, mortgage savings calculator"
       canonicalPath="/mortgage-payoff-calculator"
       ogImage="mortgage-payoff-calculator.jpg"

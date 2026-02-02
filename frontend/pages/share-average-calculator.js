@@ -373,10 +373,10 @@ export default function ShareAverageCalculator() {
   return (
     <Layout>
       <Head>
-        <title>Share Average Calculator - Calculate Your Stock Purchase Average Price | Free Tool 2026</title>
+        <title>Share Average Calculator - Calculate Stock Purchase Average Price</title>
         <meta 
           name="description" 
-          content="Free share average calculator to find the average price of your stock purchases. Perfect for dollar-cost averaging strategy, tax planning, and portfolio management. Instant results with visual breakdowns." 
+          content="Calculate the average price of your stock purchases using share averaging. Useful for dollar cost averaging and portfolio tracking." 
         />
         <meta name="keywords" content="share average calculator, stock average price, dollar cost averaging, DCA calculator, average stock cost, investment calculator, portfolio averaging, cost basis calculator" />
         <link rel="canonical" href="https://calculators.me.uk/share-average-calculator" />

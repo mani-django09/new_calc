@@ -117,8 +117,8 @@ export default function MarksPercentageCalculator() {
 
   return (
     <Layout
-      title="Marks Percentage Calculator 2026 - Calculate Exam Percentage with Grades"
-      description="Free marks percentage calculator with grade classification. Calculate your exam percentage instantly from obtained marks and total marks. Get grades, divisions, and CGPA equivalent for Indian, US, UK exams."
+      title="Marks Percentage Calculator 2026 - Calculate Exam Percentage"
+      description="Free marks percentage calculator to find exam percentage from obtained and total marks. Get grades, divisions, and result instantly."
       keywords="marks percentage calculator, percentage calculator from marks, exam percentage calculator, marks to percentage, calculate percentage of marks, grade calculator, marks percentage with grade, percentage to grade calculator"
       canonicalPath="/marks-percentage-calculator"
       ogImage="marks-percentage-calculator.jpg"

@@ -417,8 +417,8 @@ export default function SnowDayCalculator() {
 
   return (
     <Layout
-      title="Snow Day Calculator 2026 – Will School Be Cancelled Tomorrow? Free Predictor"
-      description="Check your snow day chances with our accurate calculator. Enter weather conditions to predict school closure probability. Free tool considers snowfall, temperature, wind, and location for reliable forecasts."
+      title="Snow Day Calculator 2026 – Will School Be Cancelled Tomorrow?"
+      description="Check your snow day chances with an accurate calculator. Enter weather details to estimate school closure probability using snowfall, temperature, and wind data."
       keywords="snow day calculator, will school be cancelled tomorrow, snow day predictor, school closure calculator, snow day forecast, will it snow enough to cancel school, snow day probability calculator"
       canonicalPath="/snow-day-calculator"
       ogImage="snow-day-calculator.jpg"

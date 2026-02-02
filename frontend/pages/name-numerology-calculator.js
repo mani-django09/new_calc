@@ -497,8 +497,8 @@ export default function NameNumerologyCalculator() {
 
   return (
     <Layout
-      title="Name Numerology Calculator 2026 – Free Pythagorean Name Number Calculator with Deep Meaning"
-      description="Discover your name's hidden spiritual vibration with our authentic numerology calculator. Instant Pythagorean analysis reveals personality traits, life purpose, and soul energy. 100% free, no signup required."
+      title="Name Numerology Calculator 2026 – Pythagorean Name Number"
+      description="Calculate your name number using Pythagorean numerology. Discover personality traits, life path meaning, and spiritual insights quickly."
       keywords="name numerology calculator, free name number calculator, pythagorean numerology, numerology name analysis, calculate destiny number, soul number calculator, name vibration calculator, master number 11 22 33"
       canonicalPath="/name-numerology-calculator"
       ogImage="name-numerology-calculator.jpg"

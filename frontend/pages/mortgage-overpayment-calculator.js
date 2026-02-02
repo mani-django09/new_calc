@@ -172,7 +172,7 @@ export default function MortgageOverpayment() {
   return (
     <Layout
       title="Mortgage Overpayment Calculator 2026 - Calculate Interest Savings"
-      description="Free mortgage overpayment calculator. Calculate how much you'll save with extra monthly or yearly payments. See reduced interest and earlier payoff date instantly. UK & US compatible."
+      description="Calculate mortgage overpayment savings by adding extra monthly or yearly payments. See reduced interest and an earlier payoff date instantly."
       keywords="mortgage overpayment calculator, mortgage extra payment calculator, overpayment savings calculator, mortgage overpayment uk, extra mortgage payment calculator, pay off mortgage early, mortgage calculator with overpayments"
       canonicalPath="/mortgage-overpayment-calculator"
       ogImage="mortgage-overpayment.jpg"
