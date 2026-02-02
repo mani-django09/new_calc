@@ -734,7 +734,7 @@ export default function CRSCalculator() {
 
           {/* E-E-A-T */}
           <ExpertBox expertType="immigration" calculatorName="CRS Calculator" lastUpdated="January 31, 2026" />
-          <UserReviews calculatorType="immigration" />
+          <UserReviews calculatorType="crs" />
 
           {/* Related */}
           <section className="bg-white rounded-xl shadow-md p-8">

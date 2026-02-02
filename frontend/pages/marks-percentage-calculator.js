@@ -1052,7 +1052,7 @@ export default function MarksPercentageCalculator() {
           />
 
           {/* User Reviews */}
-          <UserReviews calculatorType="education" />
+          <UserReviews calculatorType="percentage" />
 
           {/* Related Calculators */}
           <section className="bg-white rounded-xl shadow-md p-8">

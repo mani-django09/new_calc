@@ -961,6 +961,7 @@ export default function ShareAverageCalculator() {
             calculatorName="Share Average Calculator" 
             lastUpdated="February 1, 2026" 
           />
+          <UserReviews calculatorType="shares" />
 
           {/* FAQ Section with Schema */}
           <section className="bg-white rounded-xl shadow-sm p-6 sm:p-8 mb-10 border border-gray-200">
@@ -991,11 +992,6 @@ export default function ShareAverageCalculator() {
               ))}
             </div>
           </section>
-
-          {/* User Reviews */}
-          <div className="mb-10">
-            <UserReviews calculatorType="mortgage" />
-          </div>
 
           {/* Related Calculators */}
           <section className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-200">

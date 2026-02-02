@@ -999,7 +999,7 @@ export default function PercentageToCGPA() {
           />
 
           {/* User Reviews – E-E-A-T Trust Signal */}
-          <UserReviews calculatorType="education" />
+          <UserReviews calculatorType="cgpa" />
 
           {/* Related Calculators */}
           <section className="bg-white rounded-xl shadow-md p-8">

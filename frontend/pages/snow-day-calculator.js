@@ -1235,7 +1235,7 @@ export default function SnowDayCalculator() {
           />
 
           {/* User Reviews */}
-          <UserReviews calculatorType="education" />
+          <UserReviews calculatorType="snow-day" />
 
           {/* Related Tools */}
           <section className="bg-white rounded-2xl shadow-xl p-8">

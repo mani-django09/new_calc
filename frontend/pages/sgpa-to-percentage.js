@@ -1023,7 +1023,7 @@ export default function SGPAToPercentage() {
           />
 
           {/* User Reviews — E-E-A-T */}
-          <UserReviews calculatorType="education" />
+          <UserReviews calculatorType="sgpa"/>
 
           {/* Related Calculators */}
           <section className="bg-white rounded-xl shadow-md p-8">

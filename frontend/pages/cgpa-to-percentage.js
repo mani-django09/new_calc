@@ -956,7 +956,7 @@ export default function CGPAToPercentage() {
           <ExpertBox expertType="education" calculatorName="CGPA to Percentage Calculator" lastUpdated="January 31, 2026" />
 
           {/* User Reviews */}
-          <UserReviews calculatorType="education" />
+          <UserReviews calculatorType="cgpa" />
 
           {/* Related */}
           <section className="bg-white rounded-xl shadow-md p-8">

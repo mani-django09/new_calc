@@ -1302,13 +1302,13 @@ export default function NameNumerologyCalculator() {
 
           {/* Expert Box */}
           <ExpertBox
-            expertType="spirituality"
+            expertType="numerology"
             calculatorName="Name Numerology Calculator"
             lastUpdated="February 1, 2026"
           />
 
           {/* User Reviews */}
-          <UserReviews calculatorType="lifestyle" />
+          <UserReviews calculatorType="numerology" />
 
           {/* Related Tools */}
           <section className="bg-white rounded-2xl shadow-xl p-8">

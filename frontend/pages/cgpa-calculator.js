@@ -1320,7 +1320,7 @@ export default function CGPACalculator() {
           />
 
           {/* User Reviews */}
-          <UserReviews calculatorType="education" />
+          <UserReviews calculatorType="cgpa" />
         </div>
       </div>
     </Layout>

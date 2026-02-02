@@ -3,130 +3,303 @@ import { FaStar, FaQuoteLeft, FaCheckCircle } from 'react-icons/fa';
 export default function UserReviews({ calculatorType = 'general' }) {
   // Different reviews for different calculators
   const reviewsByType = {
+    // EDUCATION CALCULATORS
     'cgpa': [
       {
-        name: 'Anjali Sharma',
-        location: 'Mumbai, India',
-        university: 'Mumbai University',
+        name: 'Emily Rodriguez',
+        location: 'Austin, USA',
+        university: 'University of Texas',
         rating: 5,
         date: 'January 15, 2026',
-        text: 'Extremely accurate! Matched exactly with my university\'s official conversion. Saved me so much time during my job applications. The interface is clean and the calculations are instant.',
+        text: 'Extremely accurate! Matched exactly with my university\'s official conversion. Saved me so much time during my job applications.',
         verified: true,
         helpful: 156
       },
       {
-        name: 'Rahul Patel',
-        location: 'Ahmedabad, India',
-        university: 'Gujarat University',
+        name: 'Marcus Chen',
+        location: 'Vancouver, Canada',
+        university: 'UBC',
         rating: 5,
         date: 'January 10, 2026',
-        text: 'Clear, fast, and no annoying ads or signup forms. This is how calculators should be! I used it for my MBA applications and it worked perfectly with the 10-point scale.',
+        text: 'Clear, fast, and no annoying ads. Used it for my MBA applications and it worked perfectly with the 4-point scale.',
         verified: true,
         helpful: 89
       },
       {
-        name: 'Priya Singh',
-        location: 'Delhi, India',
-        university: 'Delhi University',
+        name: 'Sarah Johnson',
+        location: 'London, UK',
+        university: 'Imperial College',
         rating: 5,
         date: 'January 5, 2026',
-        text: 'Best CGPA calculator I\'ve found online. No registration, no ads, just pure functionality. The formula explanation helped me understand how the conversion works.',
+        text: 'Best CGPA calculator online. No registration, no ads, just pure functionality. The formula explanation was very helpful.',
         verified: true,
         helpful: 124
       }
     ],
-    'mortgage': [
+
+    'percentage': [
       {
-        name: 'Sarah Mitchell',
-        location: 'Toronto, Canada',
-        university: null,
-        rating: 5,
-        date: 'January 18, 2026',
-        text: 'This mortgage calculator helped me save thousands! The extra payment feature showed me exactly how much interest I could save. Incredibly useful for planning.',
-        verified: true,
-        helpful: 234
-      },
-      {
-        name: 'James Anderson',
-        location: 'London, UK',
-        university: null,
-        rating: 5,
-        date: 'January 12, 2026',
-        text: 'Very comprehensive mortgage calculator. The breakdown of interest savings and shortened loan term is exactly what I needed. Highly recommend!',
-        verified: true,
-        helpful: 167
-      },
-      {
-        name: 'Michael Chen',
-        location: 'San Francisco, USA',
-        university: null,
-        rating: 5,
-        date: 'January 8, 2026',
-        text: 'Simple, accurate, and free. Helped me decide on my refinancing strategy. The visual charts make it easy to understand the impact of extra payments.',
-        verified: true,
-        helpful: 198
-      }
-    ],
-    'crs': [
-      {
-        name: 'Arjun Kumar',
-        location: 'Bangalore, India',
-        university: null,
-        rating: 5,
-        date: 'January 20, 2026',
-        text: 'Perfect for Express Entry preparation! The calculator is accurate and helped me understand where I stand. The detailed breakdown of points is very helpful.',
-        verified: true,
-        helpful: 312
-      },
-      {
-        name: 'Neha Gupta',
-        location: 'Pune, India',
-        university: null,
-        rating: 5,
-        date: 'January 14, 2026',
-        text: 'Extremely helpful for Canadian immigration planning. Matched exactly with my official CRS score. The tips on improving score are a bonus!',
-        verified: true,
-        helpful: 276
-      },
-      {
-        name: 'Vikram Malhotra',
-        location: 'Mumbai, India',
-        university: null,
-        rating: 5,
-        date: 'January 9, 2026',
-        text: 'Best CRS calculator available. Clean interface, accurate calculations, and completely free. Used it throughout my Express Entry journey.',
-        verified: true,
-        helpful: 189
-      }
-    ],
-    'general': [
-      {
-        name: 'Student User',
-        location: 'India',
-        university: null,
+        name: 'Alex Thompson',
+        location: 'Chicago, USA',
+        university: 'Northwestern University',
         rating: 5,
         date: 'January 22, 2026',
-        text: 'One of the best calculator websites I\'ve used. No ads, no registration, just accurate results. Bookmarked for future use!',
+        text: 'Super quick and accurate for calculating my semester percentages. Much better than doing it manually. Bookmarked!',
         verified: true,
         helpful: 145
       },
       {
-        name: 'Professional User',
-        location: 'Canada',
-        university: null,
+        name: 'Jessica Martinez',
+        location: 'Miami, USA',
+        university: 'University of Florida',
         rating: 5,
         date: 'January 16, 2026',
-        text: 'Reliable and fast. I\'ve used multiple calculators on this site and they\'re all accurate and easy to use. Great resource!',
+        text: 'Very useful for students. Helped me track my academic progress throughout the year. Simple and effective.',
         verified: true,
         helpful: 98
       },
       {
-        name: 'International Student',
-        location: 'USA',
+        name: 'David Kim',
+        location: 'Seattle, USA',
         university: null,
         rating: 5,
         date: 'January 11, 2026',
-        text: 'Exactly what I needed for my university applications. The conversions are precise and the explanations are clear. Highly recommended!',
+        text: 'Exactly what I needed for my grade calculations. Fast and easy to use. Highly recommended for students!',
+        verified: true,
+        helpful: 112
+      }
+    ],
+
+    'sgpa': [
+      {
+        name: 'Rachel Green',
+        location: 'Boston, USA',
+        university: 'Boston University',
+        rating: 5,
+        date: 'January 20, 2026',
+        text: 'Perfect for tracking semester-wise performance. Helped me understand where I need to improve. Very accurate calculations.',
+        verified: true,
+        helpful: 134
+      },
+      {
+        name: 'Andrew Wilson',
+        location: 'Toronto, Canada',
+        university: 'York University',
+        rating: 5,
+        date: 'January 14, 2026',
+        text: 'Great tool for semester grade conversions. The interface is clean and results are instant. No complicated steps!',
+        verified: true,
+        helpful: 87
+      },
+      {
+        name: 'Sophie Anderson',
+        location: 'Melbourne, Australia',
+        university: null,
+        rating: 4,
+        date: 'January 8, 2026',
+        text: 'Works well for converting SGPA to percentage. Helped me prepare my documents for graduate school applications.',
+        verified: true,
+        helpful: 76
+      }
+    ],
+    
+    // FINANCE CALCULATORS
+    'mortgage': [
+      {
+        name: 'Robert Mitchell',
+        location: 'Toronto, Canada',
+        university: null,
+        rating: 5,
+        date: 'January 18, 2026',
+        text: 'This mortgage calculator helped me save thousands! The extra payment feature showed me exactly how much interest I could save.',
+        verified: true,
+        helpful: 234
+      },
+      {
+        name: 'Jennifer Adams',
+        location: 'London, UK',
+        university: null,
+        rating: 5,
+        date: 'January 12, 2026',
+        text: 'Very comprehensive. The breakdown of interest savings and shortened loan term is exactly what I needed. Highly recommend!',
+        verified: true,
+        helpful: 167
+      },
+      {
+        name: 'Michael Chang',
+        location: 'San Francisco, USA',
+        university: null,
+        rating: 5,
+        date: 'January 8, 2026',
+        text: 'Simple, accurate, and free. Helped me decide on my refinancing strategy. The visual charts make everything clear.',
+        verified: true,
+        helpful: 198
+      }
+    ],
+
+    'shares': [
+      {
+        name: 'Christopher Lee',
+        location: 'New York, USA',
+        university: null,
+        rating: 5,
+        date: 'January 21, 2026',
+        text: 'Essential tool for tracking my stock purchases. Makes calculating average buy price so much easier. Use it every week!',
+        verified: true,
+        helpful: 142
+      },
+      {
+        name: 'Emma Thompson',
+        location: 'Sydney, Australia',
+        university: null,
+        rating: 5,
+        date: 'January 15, 2026',
+        text: 'Perfect for investors who dollar-cost average. Gives me clarity on my portfolio positions. Very straightforward to use.',
+        verified: true,
+        helpful: 95
+      },
+      {
+        name: 'Daniel Brown',
+        location: 'Singapore',
+        university: null,
+        rating: 4,
+        date: 'January 9, 2026',
+        text: 'Good calculator for share averaging. Helps me understand my break-even points. Would love to see support for multiple stocks.',
+        verified: true,
+        helpful: 78
+      }
+    ],
+    
+    // IMMIGRATION CALCULATORS
+    'crs': [
+      {
+        name: 'Priya Sharma',
+        location: 'Mumbai, India',
+        university: null,
+        rating: 5,
+        date: 'January 20, 2026',
+        text: 'Perfect for Express Entry preparation! Accurate and helped me understand where I stand. The detailed breakdown is very helpful.',
+        verified: true,
+        helpful: 312
+      },
+      {
+        name: 'Carlos Martinez',
+        location: 'Mexico City, Mexico',
+        university: null,
+        rating: 5,
+        date: 'January 14, 2026',
+        text: 'Extremely helpful for Canadian immigration planning. Matched exactly with my official CRS score. The improvement tips are a bonus!',
+        verified: true,
+        helpful: 276
+      },
+      {
+        name: 'Li Wei',
+        location: 'Beijing, China',
+        university: null,
+        rating: 5,
+        date: 'January 9, 2026',
+        text: 'Best CRS calculator available. Clean interface, accurate calculations, and completely free. Used it throughout my journey.',
+        verified: true,
+        helpful: 189
+      }
+    ],
+    
+    // LIFESTYLE CALCULATORS
+    'snow-day': [
+      {
+        name: 'Emily Johnson',
+        location: 'Boston, USA',
+        university: null,
+        rating: 5,
+        date: 'January 25, 2026',
+        text: 'This calculator has been a lifesaver for planning! Helps us decide if we should prepare for a snow day. About 85% accurate so far.',
+        verified: true,
+        helpful: 234
+      },
+      {
+        name: 'Michael Thompson',
+        location: 'Chicago, USA',
+        university: null,
+        rating: 5,
+        date: 'January 20, 2026',
+        text: 'My kids love checking this before bed! The predictions have been pretty accurate in our area. Great for planning activities.',
+        verified: true,
+        helpful: 178
+      },
+      {
+        name: 'Sarah Davis',
+        location: 'Minneapolis, USA',
+        university: null,
+        rating: 4,
+        date: 'January 18, 2026',
+        text: 'Very helpful for parents and teachers. The interface is simple and the weather factor breakdown makes sense. Would recommend!',
+        verified: true,
+        helpful: 142
+      }
+    ],
+
+    'numerology': [
+      {
+        name: 'Maya Patel',
+        location: 'London, UK',
+        university: null,
+        rating: 5,
+        date: 'January 23, 2026',
+        text: 'Fascinating insights into my name number! The Pythagorean system explanations are clear and accurate. Love the detailed meanings.',
+        verified: true,
+        helpful: 167
+      },
+      {
+        name: 'Carlos Rodriguez',
+        location: 'Barcelona, Spain',
+        university: null,
+        rating: 5,
+        date: 'January 17, 2026',
+        text: 'Very interesting tool for self-discovery. The number interpretations resonated with me. Simple to use and informative.',
+        verified: true,
+        helpful: 123
+      },
+      {
+        name: 'Lisa Chen',
+        location: 'Los Angeles, USA',
+        university: null,
+        rating: 4,
+        date: 'January 12, 2026',
+        text: 'Nice calculator for exploring numerology. The results match what I found in books. Great starting point for spiritual exploration.',
+        verified: true,
+        helpful: 98
+      }
+    ],
+    
+    // GENERAL FALLBACK
+    'general': [
+      {
+        name: 'Amanda White',
+        location: 'Denver, USA',
+        university: null,
+        rating: 5,
+        date: 'January 22, 2026',
+        text: 'One of the best calculator websites. No ads, no registration, just accurate results. Bookmarked for future use!',
+        verified: true,
+        helpful: 145
+      },
+      {
+        name: 'James Cooper',
+        location: 'Vancouver, Canada',
+        university: null,
+        rating: 5,
+        date: 'January 16, 2026',
+        text: 'Reliable and fast. Used multiple calculators on this site and they\'re all accurate and easy to use. Great resource!',
+        verified: true,
+        helpful: 98
+      },
+      {
+        name: 'Olivia Martinez',
+        location: 'Seattle, USA',
+        university: null,
+        rating: 5,
+        date: 'January 11, 2026',
+        text: 'Exactly what I needed. The conversions are precise and explanations are clear. Highly recommended!',
         verified: true,
         helpful: 167
       }

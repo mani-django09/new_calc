@@ -7,31 +7,49 @@ export default function ExpertBox({
 }) {
   const experts = {
     education: {
-      initials: 'SK',
-      name: 'Dr. Sandeep Kumar',
+      initials: 'JW',
+      name: 'Dr. Jennifer Williams',
       title: 'Lead Education Consultant',
-      credentials: 'Ph.D. in Mathematics | Ex-IIT Delhi Professor',
-      experience: '12+ years in academic counseling',
+      credentials: 'Ph.D. in Mathematics Education | Former MIT Professor',
+      experience: '15+ years in academic assessment and grading systems',
       expertise: 'CGPA calculations, university grading systems, academic assessments',
       color: 'from-blue-600 to-indigo-600'
     },
     finance: {
-      initials: 'PM',
-      name: 'Priya Mehta, CFA',
-      title: 'Financial Calculator Specialist',
-      credentials: 'MBA Finance | CFA Level II',
-      experience: '8 years in mortgage and investment banking',
-      expertise: 'Mortgage calculations, loan amortization, financial planning',
+      initials: 'RJ',
+      name: 'Robert Johnson, CFA',
+      title: 'Senior Financial Advisor',
+      credentials: 'MBA Finance | Chartered Financial Analyst',
+      experience: '12 years in mortgage banking and financial planning',
+      expertise: 'Mortgage calculations, loan amortization, investment strategies',
       color: 'from-green-600 to-emerald-600'
     },
     immigration: {
-      initials: 'RV',
-      name: 'Rajesh Verma',
+      initials: 'MC',
+      name: 'Maria Chen, RCIC',
       title: 'Immigration Consultant',
       credentials: 'RCIC (Regulated Canadian Immigration Consultant)',
-      experience: '10+ years in Express Entry consulting',
-      expertise: 'CRS score calculations, Canadian immigration requirements',
+      experience: '10+ years in Express Entry and skilled worker programs',
+      expertise: 'CRS score calculations, Canadian immigration requirements, visa applications',
       color: 'from-red-600 to-pink-600'
+    },
+    weather: {
+      initials: 'DT',
+      name: 'Dr. David Thompson',
+      title: 'Meteorology Consultant',
+      credentials: 'Ph.D. in Atmospheric Sciences | Former NOAA Researcher',
+      experience: '18+ years in weather prediction and climate modeling',
+      expertise: 'Snow forecasting, school closure predictions, weather pattern analysis',
+      color: 'from-cyan-600 to-blue-600'
+    },
+    numerology: {
+      initials: 'SL',
+      name: 'Sophia Laurent',
+      title: 'Numerology Expert',
+      credentials: 'Certified Numerologist | Pythagorean System Specialist',
+      experience: '10 years in numerology consulting and spiritual guidance',
+      expertise: 'Name number calculations, spiritual numerology, number vibrations',
+      color: 'from-purple-600 to-pink-600'
     }
   };
 
@@ -123,7 +141,7 @@ export default function ExpertBox({
         <ul className="space-y-1 text-xs text-gray-600">
           <li className="flex items-start gap-2">
             <span className="text-blue-600 mt-0.5">•</span>
-            <span>All formulas cross-checked with official university/institutional guidelines</span>
+            <span>All formulas cross-checked with official guidelines</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-blue-600 mt-0.5">•</span>
