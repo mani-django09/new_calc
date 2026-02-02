@@ -1,91 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- Home Page -->
+  <!-- Home Page - Highest Priority -->
   <url>
     <loc>https://calculators.me.uk/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Education Calculators -->
+  <!-- Main Education Calculators - Very High Priority -->
   <url>
     <loc>https://calculators.me.uk/cgpa-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://calculators.me.uk/cgpa-to-percentage</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://calculators.me.uk/percentage-to-cgpa-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://calculators.me.uk/sgpa-to-percentage</loc>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://calculators.me.uk/marks-percentage-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <url>
-    <loc>https://calculators.me.uk/sgpa-to-percentage</loc>
-    <lastmod>2025-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Finance Calculators -->
-  <url>
-    <loc>https://calculators.me.uk/share-average-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
+  <!-- Main Finance Calculators - Very High Priority -->
   <url>
     <loc>https://calculators.me.uk/mortgage-payoff-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://calculators.me.uk/mortgage-overpayment-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Immigration Calculators -->
-  <url>
-    <loc>https://calculators.me.uk/crs-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Lifestyle Calculators -->
+  <url>
+    <loc>https://calculators.me.uk/share-average-calculator</loc>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Main Immigration Calculators - Very High Priority -->
+  <url>
+    <loc>https://calculators.me.uk/crs-calculator</loc>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://calculators.me.uk/crs-score-calculator</loc>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Lifestyle Calculators - Medium Priority -->
   <url>
     <loc>https://calculators.me.uk/name-numerology-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://calculators.me.uk/snow-day-calculator</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -93,29 +101,53 @@
   <!-- Information Pages -->
   <url>
     <loc>https://calculators.me.uk/about</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://calculators.me.uk/contact</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
-  <!-- Legal Pages -->
+  <!-- Blog Section (Add your blog posts here) -->
+  <url>
+    <loc>https://calculators.me.uk/blog</loc>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Example Blog Posts - ADD YOUR ACTUAL BLOG POSTS HERE
+  <url>
+    <loc>https://calculators.me.uk/blog/cgpa-calculation-guide</loc>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  -->
+
+  <!-- Legal Pages - Lower Priority -->
   <url>
     <loc>https://calculators.me.uk/privacy-policy</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
     <loc>https://calculators.me.uk/terms-of-service</loc>
-    <lastmod>2025-10-19</lastmod>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://calculators.me.uk/disclaimer</loc>
+    <lastmod>2026-01-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
