@@ -27,7 +27,8 @@ import {
   FaCalculator,
   FaChartBar,
   FaAward,
-  FaGlobe
+  FaGlobe,
+  FaFileInvoiceDollar
 } from 'react-icons/fa';
 
 export default function Home() {
@@ -42,6 +43,14 @@ export default function Home() {
       icon: <FaGraduationCap className="text-blue-600" />,
       href: '/cgpa-calculator',
       category: 'education',
+      popular: true
+    },
+    {
+      title: 'GST Calculator',
+      description: 'Calculate GST (Goods and Services Tax) for your business. Add or remove GST, view CGST/SGST/IGST breakdown instantly.',
+      icon: <FaFileInvoiceDollar className="text-orange-600" />,
+      href: '/gst-calculator',
+      category: 'finance',
       popular: true
     },
     {
@@ -157,13 +166,13 @@ export default function Home() {
       avatarText: "text-red-700"
     },
     {
-      quote: "The mortgage calculator showed me I could save $47,000 by just adding $150 extra per month. Already started doing it. My financial advisor was impressed with how well I understood the numbers.",
-      name: "James T.",
-      role: "Homeowner, London",
-      avatar: "JT",
-      bgColor: "from-green-50 to-emerald-50",
-      avatarBg: "bg-green-200",
-      avatarText: "text-green-700"
+      quote: "The GST calculator saved me hours during tax season. I can instantly see CGST, SGST, and IGST breakdown for all my invoices. Makes my accounting so much easier.",
+      name: "Amit K.",
+      role: "Small Business Owner, Delhi",
+      avatar: "AK",
+      bgColor: "from-orange-50 to-amber-50",
+      avatarBg: "bg-orange-200",
+      avatarText: "text-orange-700"
     }
   ];
 
@@ -178,7 +187,7 @@ export default function Home() {
     },
     {
       question: "Are these calculations actually correct?",
-      answer: "Yeah, we double-check everything. The CGPA stuff matches what universities use, CRS follows what Canada's immigration site says, and mortgage math is just standard banking formulas. If something looks off, shoot us a message and we'll investigate."
+      answer: "Yeah, we double-check everything. The CGPA stuff matches what universities use, CRS follows what Canada's immigration site says, GST calculations follow Indian tax regulations, and mortgage math is just standard banking formulas. If something looks off, shoot us a message and we'll investigate."
     },
     {
       question: "Can I use this on my phone?",
@@ -195,6 +204,10 @@ export default function Home() {
     {
       question: "How often do you update the CRS calculator?",
       answer: "Whenever Canada changes the rules. Last update was January 2026 when they adjusted some point values. We keep an eye on IRCC announcements."
+    },
+    {
+      question: "Is the GST calculator updated with current rates?",
+      answer: "Yes, we keep it updated with the latest GST slabs (5%, 12%, 18%, 28%) as per Indian tax regulations. The calculator also properly splits CGST, SGST, and IGST for accurate invoicing."
     },
     {
       question: "Can I save my calculation results?",
@@ -241,13 +254,13 @@ export default function Home() {
 
   return (
     <Layout
-      title="Free Online Calculators - CGPA, CRS, Mortgage & More"
-      description="Fast calculators for students and professionals. No signup, no fees, no nonsense. Calculate CGPA, CRS scores, mortgage payments instantly."
-      keywords="online calculator, CGPA calculator, CRS calculator, mortgage calculator, percentage calculator"
+      title="Free Online Calculators - CGPA, GST, CRS, Mortgage & More"
+      description="Fast calculators for students, businesses, and professionals. No signup, no fees, no nonsense. Calculate CGPA, GST, CRS scores, mortgage payments instantly."
+      keywords="online calculator, CGPA calculator, GST calculator, CRS calculator, mortgage calculator, percentage calculator"
       schema={homepageSchema}
       canonicalPath="/"
       ogImage="homepage.jpg"
-      lastUpdated="2026-01-31"
+      lastUpdated="2026-02-05"
     >
       {/* Clean Header */}
       <div className="bg-white border-b border-gray-200">
@@ -377,7 +390,7 @@ export default function Home() {
                     <FaGraduationCap className="text-4xl" />
                   </div>
                   <div className="w-20 h-20 bg-white bg-opacity-20 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-lg">
-                    <FaPassport className="text-4xl" />
+                    <FaFileInvoiceDollar className="text-4xl" />
                   </div>
                   <div className="w-20 h-20 bg-white bg-opacity-20 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-lg">
                     <FaHome className="text-4xl" />
@@ -405,7 +418,7 @@ export default function Home() {
               What You Can Calculate Here
             </h2>
             <p className="text-lg text-gray-600">
-              Stuff students, homeowners, and immigrants actually need
+              Stuff students, business owners, homeowners, and immigrants actually need
             </p>
           </div>
 
@@ -426,19 +439,19 @@ export default function Home() {
               </p>
             </div>
 
-            {/* For Immigrants */}
-            <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow border-t-4 border-red-600">
-              <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
-                <FaMapMarkedAlt className="text-3xl text-white" />
+            {/* For Business Owners */}
+            <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow border-t-4 border-orange-600">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                <FaFileInvoiceDollar className="text-3xl text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">For Immigrants</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">For Businesses</h3>
               <p className="text-gray-700 mb-4">
-                CRS calculator for Canada's Express Entry. Shows you exactly where your points come from 
-                and what you'd need to improve to hit the cutoff.
+                GST calculator that shows CGST, SGST, and IGST breakdown for accurate invoicing. 
+                Add or remove GST from prices in seconds without manual calculations.
               </p>
               <p className="text-sm text-gray-600">
-                Recent draws have been around 470-510 points. The calculator tells you if you're close or 
-                if you need to work on your IELTS score first.
+                Supports all Indian GST slabs (5%, 12%, 18%, 28%) plus custom rates. 
+                Perfect for shopkeepers, freelancers, and accountants.
               </p>
             </div>
 
